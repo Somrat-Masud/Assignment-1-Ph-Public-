@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Lato;
+}
+/*header style*/
+.header
+{
+    width: 1920px;
+    height: 850px;
+    background: #e554731a;
+}
+.banner-content
+    {
+    display: flex;
+    padding-top: 52px;
+    justify-content: center;
+    }
+.banner-title
+   {
+    display: flex;
+    width: 708px;
+    flex-direction: column;
+   }
+.banner-greeting
+   {
+    color: #272727;
+    font-size: 80px;
+    width: 708px;
+    font-size: 70px;
+    font-weight: 800;
+    padding-top: 68px;
+   }
+.text-primariy
+   {
+    color: #27272799;
+    font-size: 28px;
+    font-weight: 400;
+   }
+.btn-primary
+   {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 43px;
+    margin-top: 30px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-color: #FFF;
+   }
+    .banner{
+        width: 635px;
+        height: 800px;
+    }
+    /* Bonus Section */
+
+    .about{
+    width: 1920px;
+    height: 630px;
+    background: #FFF;
+    margin-top: 120px;
+    }
+.about-heating
+{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 40px;;
+}
+.about-content
+{
+    color: #27272799;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    margin-left: 620px;
+    margin-top: 18px;
+}
+
+.img
+{
+    display:flex;
+    text-align: center;
+    margin-left: 280px;
+ justify-content: center;
+    margin: auto;
+    
+
+}
+.img-p{
+    width: 310px;
+    height: 428px;
+    margin-top: 110px;
+    
+}
+
+.img-1{
+    border-radius: 300px 300px 0px 0px;
+    background: #a7216226;
+    background-color: #fdccd5;
+    
+}
+.img-2{
+    border-radius: 300px 300px 0px 0px;
+    background: #a7216226;
+    background-color: #fdccd5;
+   
+}
+
+
+.img-3{
+    border-radius: 300px 300px 0px 0px;
+    background: #0597a026;
+    background-color:#0597A026;
+  
+}
+.img-link
+{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    text-decoration-line: underline;
+    margin-top: 300px;
+}
+
+
+
+
+/*Main section Hot dial style*/
+
+
+.section-dial{
+    width: 1922px;
+    height: 540px;
+    background-color: #f7edef;
+    margin-top: 80px;
+    padding-top: 48px;
+    
+  
+}
+.section-main
+{
+    display: inline;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 120px;
+    
+    
+}
+.section-description
+{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px; 
+    margin-top: 20px;
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    
+}
+.spn
+{
+   color: #E55473;  
+}
+.section-title
+{
+    color: #272727;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+
+.Sign-Up
+{
+    text-align: center;
+}
+
+.section-primary{
+    display: flex;
+    margin: 0px 250px;
+    justify-content: space-between;
+}
+.section-dial-img{
+    margin-right: 230px;
+}
+/*instagram section*/
+.instagram
+{
+    width: 1780px;
+    height: 440px;
+}
+.instagram-title
+{
+    margin-top: 88px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.instagram-description
+{
+ color: #27272799;
+display: flex;
+ width: 594px;
+ text-align: center;
+ flex-direction: column;
+ margin-left: 600px;
+font-size: 20px;
+font-weight: 400;
+}
+.instagram-img{
+margin-left: 230px;
+padding-top: 38px;
+
+
+}
+.instagram-img-2 {
+    margin-left: 10px;
+}
+.instagram-img-3 {
+    margin-left: 10px;
+}
+.instagram-img-4 {
+    margin-left: 10px;
+}
+/*Get The Latest Deals*/
+.section-box{
+    width: 1410px;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+     background-image: url("././FlowerAsset/Rectangle-9.png");
+     margin-left: 230px;
+     margin-top: 125px;
+     margin-bottom: 58px;;
+     
+
+}
+.box-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 58px;
+
+}
+.content-description{
+    color: #27272799;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+}
+.input{
+    border-radius: 8px;
+    background: #FFF;
+    width: 540px;
+    height: 64px;
+    border-color: #FFF;
+}
+
+   
+   
+/**Footer section**/
+
+
+.footer{
+    background: #111010;
+    width: 1920px;
+    height: 449px;
+    padding-top: 80px; 
+}
+.footer-title{
+    color: #FFF;
+    font-size: 48px;
+    text-align: center;
+    }
+.footer-content{
+color: #ffffffe6;
+text-align: center;
+font-size: 18px;
+justify-content: center;
+flex-direction: column;
+margin-top: 10px;
+}
+.footer-bottm
+{
+    text-align: center;
+    color:#f7edef ;
+    margin-top: 10px;
+}
